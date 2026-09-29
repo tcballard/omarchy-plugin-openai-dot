@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.tcballard.openai-dot",
+  "name": "OpenAI Dot",
+  "version": "0.1.0-dev",
+  "author": "Tom Ballard",
+  "license": "MIT",
+  "description": "Open your OpenAI Dot in a dedicated browser app window.",
+  "kinds": [
+    "bar-widget",
+    "panel"
+  ],
+  "entryPoints": {
+    "barWidget": "BarWidget.qml",
+    "panel": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "OpenAI Dot",
+    "description": "Open your OpenAI Dot in a dedicated browser app window.",
+    "category": "Other",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": {},
+    "schema": []
+  }
+}
