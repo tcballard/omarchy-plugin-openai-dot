@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+set -euo pipefail
+printf '%s\n' 'Live demo: enable the plugin, add Dot to the bar, and click it.' 'Use your own eligible account. See docs/DESIGN.md for smoke checks.'
